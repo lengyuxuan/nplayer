@@ -1,12 +1,12 @@
-import { Disposable, PlayerOptions, Plugin } from './types';
+import type { Disposable, PlayerOptions, Plugin } from './types';
 import { processOptions } from './options';
 import {
   $, addClass, getEl, Rect, EventEmitter, clamp, isString,
   dispose, removeNode, addDisposable, patchProps, internalUtils,
 } from './utils';
-import { Control, ControlItem } from './parts/control';
+import { Control, type ControlItem } from './parts/control';
 import { Loading } from './parts/loading';
-import { ContextMenu, ContextMenuItem } from './parts/contextmenu';
+import { ContextMenu, type ContextMenuItem } from './parts/contextmenu';
 import { Toast } from './parts/toast';
 import { Fullscreen } from './features/fullscreen';
 import { WebFullscreen } from './features/web-fullscreen';
@@ -16,7 +16,7 @@ import {
 } from './helper';
 import { EVENT } from './constants';
 import { Shortcut } from './features/shortcut';
-import { SettingItem } from './parts/control/items/setting';
+import type { SettingItem } from './parts/control/items/setting';
 
 import * as components from './components';
 import { I18n, Icon } from './features';
@@ -369,3 +369,5 @@ export class Player extends EventEmitter implements Disposable {
 
 Player.prototype.Player = Player;
 Player.prototype.EVENT = EVENT;
+
+export { Component } from './utils/component';

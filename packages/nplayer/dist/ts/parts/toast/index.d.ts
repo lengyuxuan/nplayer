@@ -1,6 +1,6 @@
-import { Disposable } from 'src/ts/types';
+import type { Disposable } from 'src/ts/types';
 import { Component } from 'src/ts/utils';
-declare type Position = 'center' | 'left-top' | 'right-top' | 'left-bottom' | 'right-bottom';
+type Position = 'center' | 'left-top' | 'right-top' | 'left-bottom' | 'right-bottom';
 export declare class ToastItem extends Component {
     readonly position: Position;
     timer: any;

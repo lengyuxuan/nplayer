@@ -1,5 +1,5 @@
 import { Player } from 'src/ts/player';
-import { Disposable } from 'src/ts/types';
+import type { Disposable } from 'src/ts/types';
 import { Tooltip } from 'src/ts/components/tooltip';
 import { Component } from 'src/ts/utils';
 import { ControlBar } from './items';

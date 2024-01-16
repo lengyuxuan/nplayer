@@ -1,5 +1,5 @@
 import { $ } from 'src/ts/utils';
-import { ControlItem } from '..';
+import type { ControlItem } from '..';
 
 export const spacerControlItem = (): ControlItem => ({
   id: 'spacer',

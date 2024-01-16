@@ -1,5 +1,5 @@
 import { I18n, NORMAL, SPEED } from '../features';
-import { SettingItem } from '../parts/control/items/setting';
+import type { SettingItem } from '../parts/control/items/setting';
 
 export const speedSettingItem = (): SettingItem => ({
   id: 'speed',

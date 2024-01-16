@@ -1,5 +1,5 @@
 import { I18n, LOOP } from '../features';
-import { ContextMenuItem } from '../parts/contextmenu';
+import type { ContextMenuItem } from '../parts/contextmenu';
 
 export const loopContextMenuItem = (): ContextMenuItem => ({
   id: 'loop',

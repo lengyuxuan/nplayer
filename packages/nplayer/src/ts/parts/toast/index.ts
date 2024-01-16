@@ -1,4 +1,4 @@
-import { Disposable } from 'src/ts/types';
+import type { Disposable } from 'src/ts/types';
 import { addClass, Component } from 'src/ts/utils';
 
 type Position = 'center' | 'left-top' | 'right-top' | 'left-bottom' | 'right-bottom'

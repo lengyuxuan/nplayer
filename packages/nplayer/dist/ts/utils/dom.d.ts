@@ -1,4 +1,4 @@
-import { Disposable } from '../types';
+import type { Disposable } from '../types';
 export declare function $<T extends HTMLElement>(desc?: string, attrs?: {
     [key: string]: any;
 }, children?: string | Array<Node>, classPrefix?: string): T;

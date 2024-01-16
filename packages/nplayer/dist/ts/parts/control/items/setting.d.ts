@@ -2,7 +2,7 @@ import { Switch } from 'src/ts/components/switch';
 import { Player } from 'src/ts/player';
 import { Component } from 'src/ts/utils';
 import { Tooltip } from 'src/ts/components/tooltip';
-import { ControlItem } from '..';
+import type { ControlItem } from '..';
 export interface SettingItemOption<T = any> {
     html?: string;
     selectedHtml?: string;
@@ -46,8 +46,8 @@ declare class Setting extends Component implements ControlItem {
     private back;
     private showOptionPage;
     private showHomePage;
-    show: (ev?: MouseEvent | undefined) => void;
-    hide: (ev?: MouseEvent | undefined) => void;
+    show: (ev?: MouseEvent) => void;
+    hide: (ev?: MouseEvent) => void;
 }
 export declare const settingControlItem: () => Setting;
 export {};

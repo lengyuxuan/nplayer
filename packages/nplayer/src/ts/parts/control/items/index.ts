@@ -3,9 +3,9 @@ import {
   $, addClass, addDisposable, Component, isString, patch,
 } from 'src/ts/utils';
 import { Tooltip } from 'src/ts/components/tooltip';
-import { Disposable } from 'src/ts/types';
+import type { Disposable } from 'src/ts/types';
 import { EVENT } from 'src/ts/constants';
-import { ControlItem } from '..';
+import type { ControlItem } from '..';
 import { spacerControlItem } from './spacer';
 
 export class ControlBar extends Component {

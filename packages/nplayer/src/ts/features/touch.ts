@@ -1,6 +1,6 @@
 import { ToastItem } from '../parts';
 import { Player } from '../player';
-import { Disposable } from '../types';
+import type { Disposable } from '../types';
 import {
   clamp, formatTime, throttle,
 } from '../utils';

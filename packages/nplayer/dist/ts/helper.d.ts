@@ -1,5 +1,5 @@
 import { Player } from './player';
-import { PlayerOptions } from './types';
+import type { PlayerOptions } from './types';
 export declare function tryOpenEdge(player: Player): void;
 export declare function setCssVariables(el: HTMLElement, opts: PlayerOptions): void;
 export declare function setVideoAttrs(video: HTMLVideoElement, opts: PlayerOptions['videoAttrs']): void;

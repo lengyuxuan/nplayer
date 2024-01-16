@@ -1,4 +1,4 @@
-import { PlayerOptions } from './types';
+import type { PlayerOptions } from './types';
 
 const defaultOptions = (): Partial<PlayerOptions> => ({
   shortcut: true,

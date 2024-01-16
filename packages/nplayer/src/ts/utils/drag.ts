@@ -1,4 +1,4 @@
-import { Disposable } from '../types';
+import type { Disposable } from '../types';
 
 type Fn = (ev: PointerEvent) => any;
 

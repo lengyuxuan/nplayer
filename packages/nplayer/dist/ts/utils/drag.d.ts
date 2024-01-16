@@ -1,5 +1,5 @@
-import { Disposable } from '../types';
-declare type Fn = (ev: PointerEvent) => any;
+import type { Disposable } from '../types';
+type Fn = (ev: PointerEvent) => any;
 export declare class Drag implements Disposable {
     private el;
     private start;

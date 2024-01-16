@@ -1,4 +1,4 @@
-import { Disposable } from '../types';
+import type { Disposable } from '../types';
 export declare class Component implements Disposable {
     el: HTMLElement;
     constructor(container?: HTMLElement, desc?: string | HTMLElement, attrs?: {

@@ -1,5 +1,5 @@
 import { Player } from '../player';
-import { Disposable } from '../types';
+import type { Disposable } from '../types';
 export declare class WebFullscreen implements Disposable {
     private player;
     constructor(player: Player);

@@ -1,7 +1,7 @@
-import { ContextMenuItem } from '../parts/contextmenu';
-import { ControlItem } from '../parts/control';
-import { SettingItem } from '../parts/control/items/setting';
-import { ThumbnailOptions } from '../parts/control/progress/thumbnail';
+import type { ContextMenuItem } from '../parts/contextmenu';
+import type { ControlItem } from '../parts/control';
+import type { SettingItem } from '../parts/control/items/setting';
+import type { ThumbnailOptions } from '../parts/control/progress/thumbnail';
 import { Player } from '../player';
 
 export interface Disposable {

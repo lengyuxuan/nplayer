@@ -6,7 +6,7 @@ import {
   hide, Component, addDisposableListener, addDisposable, show,
 } from 'src/ts/utils';
 import { Tooltip } from 'src/ts/components/tooltip';
-import { ControlItem } from '..';
+import type { ControlItem } from '..';
 
 class Fullscreen extends Component implements ControlItem {
   readonly id = 'fullscreen'

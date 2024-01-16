@@ -6,7 +6,7 @@ import { Player } from 'src/ts/player';
 import { EVENT } from 'src/ts/constants';
 import { I18n, PAUSE, PLAY } from 'src/ts/features/i18n';
 import { Tooltip } from 'src/ts/components/tooltip';
-import { ControlItem } from '..';
+import type { ControlItem } from '..';
 
 class Play extends Component implements ControlItem {
   readonly id = 'play';

@@ -1,6 +1,6 @@
 import { EVENT } from 'src/ts/constants';
 import { Player } from 'src/ts/player';
-import { Disposable } from 'src/ts/types';
+import type { Disposable } from 'src/ts/types';
 import { Tooltip } from 'src/ts/components/tooltip';
 import {
   $, addClass, addDisposable, addDisposableListener, Component, containClass, removeClass,

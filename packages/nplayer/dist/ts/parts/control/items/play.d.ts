@@ -1,7 +1,7 @@
 import { Component } from 'src/ts/utils';
 import { Player } from 'src/ts/player';
 import { Tooltip } from 'src/ts/components/tooltip';
-import { ControlItem } from '..';
+import type { ControlItem } from '..';
 declare class Play extends Component implements ControlItem {
     readonly id = "play";
     private playIcon;

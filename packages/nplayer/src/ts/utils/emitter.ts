@@ -1,4 +1,4 @@
-import { Disposable } from '../types';
+import type { Disposable } from '../types';
 
 /**
  * @see https://github.com/primus/eventemitter3

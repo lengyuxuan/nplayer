@@ -3,7 +3,7 @@ import { Player } from 'src/ts/player';
 import {
   $, addClass, addDisposable, addDisposableListener, clamp, Component, Drag, Rect, throttle,
 } from 'src/ts/utils';
-import { ControlItem } from '..';
+import type { ControlItem } from '..';
 import { Thumbnail } from './thumbnail';
 
 export class Progress extends Component implements ControlItem {

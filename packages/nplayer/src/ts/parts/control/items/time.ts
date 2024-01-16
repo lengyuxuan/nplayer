@@ -4,7 +4,7 @@ import { Player } from 'src/ts/player';
 import {
   $, addClass, addDisposable, Component, formatTime,
 } from 'src/ts/utils';
-import { ControlItem } from '..';
+import type { ControlItem } from '..';
 
 class Time extends Component implements ControlItem {
   readonly id = 'time';

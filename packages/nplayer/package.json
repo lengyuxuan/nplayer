@@ -1,17 +1,17 @@
 {
-  "name": "nplayer",
+  "name": "@fangjin/nplayer",
   "version": "1.0.15",
   "description": "powerful danmaku video player",
   "main": "dist/index.min.js",
   "typings": "dist/index.d.ts",
   "license": "MIT",
-  "authors": "wopen <nepow@foxmail.com>",
+  "authors": "fangjin <fangjin.1227@foxmail.com>",
   "files": [
     "dist",
     "src"
   ],
   "repository": {
-    "url": "https://github.com/woopen/nplayer.git",
+    "url": "https://github.com/lengyuxuan/nplayer.git",
     "type": "git"
   },
   "keywords": [
@@ -22,9 +22,5 @@
     "vue",
     "react"
   ],
-  "homepage": "https://github.com/woopen/nplayer",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
-  }
+  "homepage": "https://github.com/lengyuxuan/nplayer"
 }

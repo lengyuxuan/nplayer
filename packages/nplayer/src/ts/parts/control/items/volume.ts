@@ -6,7 +6,7 @@ import {
   $, addClass, addDisposable, addDisposableListener, clamp, Component, Drag, getEventPath, hide, isString, Rect, show,
 } from 'src/ts/utils';
 import { Tooltip } from 'src/ts/components/tooltip';
-import { ControlItem } from '..';
+import type { ControlItem } from '..';
 
 class Volume extends Component implements ControlItem {
   readonly id = 'volume';

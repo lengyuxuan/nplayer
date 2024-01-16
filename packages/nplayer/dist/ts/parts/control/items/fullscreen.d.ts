@@ -1,7 +1,7 @@
 import { Player } from 'src/ts/player';
 import { Component } from 'src/ts/utils';
 import { Tooltip } from 'src/ts/components/tooltip';
-import { ControlItem } from '..';
+import type { ControlItem } from '..';
 declare class Fullscreen extends Component implements ControlItem {
     readonly id = "fullscreen";
     private exitIcon;

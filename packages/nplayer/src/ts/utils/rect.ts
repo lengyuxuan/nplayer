@@ -1,6 +1,6 @@
 import { EVENT } from '../constants';
 import { Player } from '../player';
-import { Disposable } from '../types';
+import type { Disposable } from '../types';
 
 export class Rect implements Disposable {
   private rect!: DOMRect;

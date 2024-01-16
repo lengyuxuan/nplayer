@@ -1,6 +1,6 @@
 import { isBool, isString } from '.';
 import { CLASS_PREFIX } from '../constants';
-import { Disposable } from '../types';
+import type { Disposable } from '../types';
 import { isBrowser } from './env';
 
 const SELECTOR_REGEX = /([\w-]+)?(?:#([\w-]+))?((?:\.(?:[\w-]+))*)/;

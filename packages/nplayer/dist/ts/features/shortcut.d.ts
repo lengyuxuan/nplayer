@@ -1,6 +1,6 @@
 import { Player } from '../player';
-import { Disposable } from '../types';
-export declare type ShortcutHandler = (player: Player) => void;
+import type { Disposable } from '../types';
+export type ShortcutHandler = (player: Player) => void;
 export declare class Shortcut implements Disposable {
     private player;
     private map;

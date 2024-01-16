@@ -1,4 +1,4 @@
-import { Disposable } from '../types';
+import type { Disposable } from '../types';
 /**
  * Minimal `EventEmitter` interface that is molded against the Node.js
  * `EventEmitter` interface.

@@ -1,6 +1,6 @@
 import { CLASS_PLAYER, EVENT } from '../constants';
 import { Player } from '../player';
-import { Disposable } from '../types';
+import type { Disposable } from '../types';
 import {
   addClass, addDisposable, addDisposableListener, dispose, isFunction, isIOS, removeClass,
 } from '../utils';

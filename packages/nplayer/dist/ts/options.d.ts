@@ -1,2 +1,2 @@
-import { PlayerOptions } from './types';
+import type { PlayerOptions } from './types';
 export declare function processOptions(opts?: PlayerOptions): Required<PlayerOptions>;

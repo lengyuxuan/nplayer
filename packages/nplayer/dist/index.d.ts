@@ -8,3 +8,4 @@ export * from './ts/parts';
 export * from './ts/constants';
 export * from './ts/features';
 export * from './ts/components';
+export { Component } from './ts/utils/component';

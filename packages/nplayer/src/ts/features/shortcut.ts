@@ -1,5 +1,5 @@
 import { Player } from '../player';
-import { Disposable } from '../types';
+import type { Disposable } from '../types';
 import { addDisposableListener, dispose, isNumber } from '../utils';
 import { VOLUME, I18n } from './i18n';
 

@@ -6,7 +6,7 @@ import {
   addDisposable, addDisposableListener, Component, hide, show,
 } from 'src/ts/utils';
 import { Tooltip } from 'src/ts/components/tooltip';
-import { ControlItem } from '..';
+import type { ControlItem } from '..';
 
 class WebFullscreen extends Component implements ControlItem {
   readonly id = 'web-fullscreen'

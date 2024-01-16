@@ -1,4 +1,4 @@
-import { Disposable } from '../types';
+import type { Disposable } from '../types';
 import { DomListener, $, createSvg, getEventPath, removeNode, addClass } from './dom';
 export * from './drag';
 export * from './rect';

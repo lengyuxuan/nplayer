@@ -1,6 +1,6 @@
 import { EVENT } from './constants';
 import { Player } from './player';
-import { Disposable, PlayerOptions } from './types';
+import type { Disposable, PlayerOptions } from './types';
 import { addDisposable, isWin10IE, throttle } from './utils';
 import { settingControlItem } from './parts/control/items/setting';
 import { speedSettingItem } from './setting-items/speed';

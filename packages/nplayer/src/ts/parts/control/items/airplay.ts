@@ -4,7 +4,7 @@ import {
   hide, Component, addDisposableListener, show,
 } from 'src/ts/utils';
 import { AIRPLAY, I18n } from 'src/ts/features';
-import { ControlItem } from '..';
+import type { ControlItem } from '..';
 
 class Airplay extends Component implements ControlItem {
   readonly id = 'airplay'

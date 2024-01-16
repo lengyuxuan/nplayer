@@ -17,9 +17,9 @@ export declare const LIVE = "Live";
 export declare const I18n: {
     defaultLang: string;
     currentLang: string;
-    t(key: string, lang?: string | undefined): string;
+    t(key: string, lang?: string): string;
     add(lang: string, transData: Record<string, string>): void;
     fallback(): void;
-    setCurrentLang(lang?: string | undefined): void;
-    setDefaultLang(lang?: string | undefined): void;
+    setCurrentLang(lang?: string): void;
+    setDefaultLang(lang?: string): void;
 };

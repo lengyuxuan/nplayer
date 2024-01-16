@@ -8,7 +8,7 @@ import {
   $, addClass, addDisposable, addDisposableListener, Component, getEventPath, measureElementSize, removeClass,
 } from 'src/ts/utils';
 import { Tooltip } from 'src/ts/components/tooltip';
-import { ControlItem } from '..';
+import type { ControlItem } from '..';
 
 export interface SettingItemOption<T = any> {
   html?: string;

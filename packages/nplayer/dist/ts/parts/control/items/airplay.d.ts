@@ -1,6 +1,6 @@
 import { Player } from 'src/ts/player';
 import { Component } from 'src/ts/utils';
-import { ControlItem } from '..';
+import type { ControlItem } from '..';
 declare class Airplay extends Component implements ControlItem {
     readonly id = "airplay";
     tip: string;

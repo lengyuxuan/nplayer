@@ -1,4 +1,4 @@
-import { ContextMenuItem } from '../parts/contextmenu';
+import type { ContextMenuItem } from '../parts/contextmenu';
 
 export const versionContextMenuItem = (): ContextMenuItem => ({
   id: 'version',
